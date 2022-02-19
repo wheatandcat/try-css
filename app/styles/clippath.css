@@ -1,0 +1,176 @@
+body {
+  background-color: #c1dbda;
+}
+
+.box {
+  width: 100%;
+  max-width: 480px;
+  height: 100%;
+  min-height: 10rem;
+  border: 1px solid #cacaca;
+  margin: 3rem 0;
+  background-color: #e3c95d;
+}
+
+.box-white {
+  width: 100%;
+  max-width: 480px;
+  height: 100%;
+  min-height: 10rem;
+  border: 1px solid #cacaca;
+  background-color: #fff;
+  margin: 3rem 0;
+}
+
+.section1 {
+  padding: 6rem 3rem;
+  width: 100%;
+  clip-path: polygon(100% 0, 0 0, 0 85%, 100% 100%);
+  background-color: #fff;
+}
+
+.section2 {
+  padding: 3rem;
+  width: 100%;
+}
+
+.section3 {
+  margin-top: 5rem;
+  padding: 6rem 3rem;
+  width: 100%;
+  clip-path: polygon(100% 0, 0 15%, 0 100%, 100% 100%);
+  background-color: #fff;
+}
+
+.inset {
+  height: 10rem;
+  width: 100%;
+  clip-path: inset(20px);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  height: 15rem;
+  width: 100%;
+  clip-path: circle(80px at 50% 50%);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle {
+  background-color: #fff;
+  width: 10rem;
+  height: 10rem;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 1.1rem;
+  background-color: #e3c95d;
+  width: 8rem;
+  height: 6rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  text-align: right;
+}
+
+.web-body {
+  position: relative;
+  background-color: #e2e2e2;
+  height: 30rem;
+}
+
+.header {
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 70%);
+  background-color: #c8a711;
+}
+
+.header:after {
+  content: "";
+  position: absolute;
+  height: 13rem;
+  left: 0;
+  width: 100%;
+  bottom: 0rem;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 70%);
+  background-color: #e3c95d;
+}
+
+.card {
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  background-color: #fff;
+  border-radius: 8%;
+  margin: 1rem;
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  clip-path: inset(10% 10px 30% round 5px);
+  background-color: #cbe7eb;
+}
+
+.card-item1 {
+  position: absolute;
+  width: 3rem;
+  height: 7rem;
+  clip-path: inset(82% 10px 15% round 5px);
+  background-color: #aaa;
+}
+
+.card-item2 {
+  position: absolute;
+  left: 2rem;
+  width: 4rem;
+  height: 7rem;
+  clip-path: inset(82% 10px 15% round 5px);
+  background-color: #aaa;
+}
+
+.item-button {
+  position: relative;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 20px;
+  background-color: #e3c95d;
+}
+
+.item-button span {
+  position: relative;
+  z-index: 1;
+}
+
+.item-button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.5;
+  clip-path: circle(0 at center);
+  transition: 0.3s ease-out;
+}
+
+.item-button:hover:before {
+  clip-path: circle(100px at center);
+}
