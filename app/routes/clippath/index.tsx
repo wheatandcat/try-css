@@ -11,34 +11,23 @@ import Light from "~/components/Clippath/Light";
 export default function Index() {
   return (
     <>
-      <div className="pt-10">
-        <div>
-          <nav className="px-4">
-            <ul className="list-disc">
-              <li className="text-2xl font-bold">clip-path</li>
-            </ul>
-          </nav>
-        </div>
-        <br />
-        <br />
-        <Section />
+      <Section />
 
-        <Inset />
+      <Inset />
 
-        <Circle />
+      <Circle />
 
-        <Triangle />
+      <Triangle />
 
-        <Ribbon />
+      <Ribbon />
 
-        <Button />
+      <Button />
 
-        <Image />
+      <Image />
 
-        <Screen />
+      <Screen />
 
-        <Light />
-      </div>
+      <Light />
     </>
   );
 }

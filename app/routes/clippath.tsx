@@ -6,5 +6,18 @@ export const meta: MetaFunction = () => {
 };
 
 export default function ClippathRoute() {
-  return <Outlet />;
+  return (
+    <div className="pt-10">
+      <div>
+        <nav className="px-4">
+          <ul className="list-disc">
+            <li className="text-2xl font-bold">clip-path</li>
+          </ul>
+        </nav>
+      </div>
+      <br />
+      <br />
+      <Outlet />
+    </div>
+  );
 }
