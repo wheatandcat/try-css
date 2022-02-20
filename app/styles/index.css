@@ -1,3 +1,15 @@
 body {
   background-color: #c1dbda;
 }
+
+.clip-img {
+  width: 100px;
+}
+
+.img-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.img-circle {
+  clip-path: circle(30%);
+}

@@ -17,7 +17,7 @@ export default function Index() {
       <nav className="px-4">
         <ul className="list-disc">
           <li className="text-2xl font-bold">
-            <Link to="clippath">clip-path</Link>
+            <Link to="/clippath">clip-path</Link>
           </li>
         </ul>
       </nav>
