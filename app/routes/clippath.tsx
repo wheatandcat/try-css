@@ -1,4 +1,4 @@
-import { Outlet } from "remix";
+import { Outlet, Link } from "remix";
 import type { MetaFunction } from "remix";
 
 export const meta: MetaFunction = () => {
@@ -16,8 +16,10 @@ export default function ClippathRoute() {
         </nav>
       </div>
       <br />
-      <br />
       <Outlet />
+      <div className="pt-4 text-xl font-bold">
+        <Link to="/">Top</Link>
+      </div>
     </div>
   );
 }
