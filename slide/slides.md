@@ -97,6 +97,17 @@ IE11のサポートも2022年6月15日で終了なので、それ以降は使っ
 
 
 ---
+
+# clip-pathに設定できる値
+
+|  値  |  内容  |
+| ---- | ---- |
+|  inset  |  四角形を設定  |
+|  circle  |  丸を表示  |
+
+
+
+---
 layout: center
 class: "text-center"
 ---
@@ -106,21 +117,100 @@ class: "text-center"
 </div>
 
 ---
+layout: center
+---
 
-# サンプル
+## 斜め線を使用したデザイン
 
-以下からチュートリアルを行う事が可能
+[https://try-css.vercel.app/clippath/section](https://try-css.vercel.app/clippath/section)
 
-https://remix.run/docs/en/v1/tutorials/jokes
+---
+layout: center
+---
+
+## clip-pathで四角形を書く
+
+[https://try-css.vercel.app/clippath/inset](https://try-css.vercel.app/clippath/inset)
+
+---
+layout: center
+---
+
+## clip-pathで丸を書く
+
+[https://try-css.vercel.app/clippath/circle](https://try-css.vercel.app/clippath/circle)
+
+---
+layout: center
+---
+
+## clip-pathで三角形を書く
+
+[https://try-css.vercel.app/clippath/triangle](https://try-css.vercel.app/clippath/triangle)
+
+
+---
+layout: center
+---
+
+## clip-pathでカードにリボンをつける
+
+[https://try-css.vercel.app/clippath/ribbon](https://try-css.vercel.app/clippath/ribbon)
+
+---
+layout: center
+---
+
+## clip-pathでボタンにアニメーションをつける
+
+[https://try-css.vercel.app/clippath/button](https://try-css.vercel.app/clippath/button)
+
+---
+layout: center
+---
+
+## clip-pathで画像を切り抜く
+
+[https://try-css.vercel.app/clippath/image](https://try-css.vercel.app/clippath/image)
+
+---
+layout: center
+---
+
+## clip-pathを使ってデザインしてみる
+
+[https://try-css.vercel.app/clippath/screen](https://try-css.vercel.app/clippath/screen)
+
+
+---
+layout: center
+---
+
+## clip-pathを使ってデザインしてみる
+
+[https://try-css.vercel.app/clippath/screen](https://try-css.vercel.app/clippath/screen)
+
+
+
+---
+layout: center
+---
+
+## おまけ: clip-pathでサーチライトっぽいアニメーション
+
+[https://try-css.vercel.app/clippath/light](https://try-css.vercel.app/clippath/light)
 
 
 ---
 
 # まとめ
 
-公開されたばかりののフレームワークで、プロダクトで使えるかまでは未検証ですが、ちょっとした開発では使ってみたいと思えるくらいには作り込まれている感じでした。
+今までcssのborderで無理やり実装していた箇所が、clip-patでスッキリかけるようになった。
 
-web開発はNext.jsの一強の状態だったところに、方向性の違うRemixが出てきて、また盛り上がっている感じなので、今後も期待かなと思います。
+アニメーションと組み合わせれば色々できる
+https://digipress.info/tech/revealing-text-by-clip-path/
+
+IE11のサポート期間が終わったら、業務でも使用できそう
 
 ---
 layout: center
