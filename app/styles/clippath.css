@@ -193,6 +193,31 @@ body {
   clip-path: circle(30%);
 }
 
+.img-rhombus {
+  width: 100px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.img-star {
+  width: 100px;
+  height: 80px;
+  clip-path: polygon(45% 3%, 76% 99%, 2% 29%, 95% 29%, 15% 99%);
+}
+
+.img-arrow {
+  width: 100px;
+  height: 80px;
+  clip-path: polygon(
+    0% 20%,
+    50% 20%,
+    50% 0%,
+    100% 50%,
+    50% 100%,
+    50% 80%,
+    0% 80%
+  );
+}
+
 .picture {
   width: 480px;
   height: 500px;

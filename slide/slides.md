@@ -71,7 +71,18 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # clip-pathとは
 
+<br/>
 
+clip-pathはCSSのプロパティで、<br/>
+要素のどの部分を表示するかを設定するクリッピング領域を指定できるCSS。
+
+具体的には、HTMLの要素の一部をトリミングしたり、SVGのPathを指定して動的に表示することができる。
+
+
+<br/>
+<br/>
+
+[MDN clip-path](https://developer.mozilla.org/ja/docs/Web/CSS/clip-path)
 
 ---
 
@@ -103,8 +114,9 @@ IE11のサポートも2022年6月15日で終了なので、それ以降は使っ
 |  値  |  内容  |
 | ---- | ---- |
 |  inset  |  四角形を設定  |
-|  circle  |  丸を表示  |
-
+|  circle  |  丸を設定  |
+|  ellipse  |  楕円を設定  |
+|  polygon  |  多角形を設定  |
 
 
 ---
@@ -207,10 +219,14 @@ layout: center
 
 今までcssのborderで無理やり実装していた箇所が、clip-patでスッキリかけるようになった。
 
-アニメーションと組み合わせれば色々できる
+<br/>
+
+アニメーションと組み合わせれば色々できる<br/>
 https://digipress.info/tech/revealing-text-by-clip-path/
 
-IE11のサポート期間が終わったら、業務でも使用できそう
+<br/>
+
+IE11のサポート期間が終わったら、色々な場面でも使用しても良さそう。
 
 ---
 layout: center
